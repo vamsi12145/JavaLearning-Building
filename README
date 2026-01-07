@@ -1,0 +1,32 @@
+I have started learning java again from scratch lets see where it takes me.
+
+If we have to do something in the java we need methods.
+We can use JShell for writing a single line java codes not for building projects.
+Java is a platform Independent
+So when we write the java code it converts into byte code by using compiler and that byte code runs in the jvm to give the result and inside jvm it looks for the  main process and the main process should have the syntax o public  static void main(String a[]) and in java everything should be in a object to create that object we need a class.
+
+Inside jdk we have jre and inside jre we have jvm.
+Generally the data plays a major role in any application so  probably the data stores in two ways one is permanent which is databases and the the second one is while processing we need it to store in someplace that is called variable.
+We can call java as strongly typed language.
+
+we have different types of primitive datatypes the following are the list of datatypes that are available in java
+int,short,byte,long,float,double,char,boolean all are primitive data types can be call as literals also.
+String,arrays, class, interfaces all are non-primitive.
+Type conversion and casting.
+converting one data type to another data type is known as casting.and we can achieve this the format is (type)variable.
+
+We have a multiple operators in java for performing addition, subtraction,division,module operator for remainder,(+,-,*,/,%) we have assignment operators as well where we can alter the values without using the second variable.(++,--,+=,-=,*=)
+
+we have post and pre increment ++n,n++ difference is while fetching the value.
+++n in this first it will increment the value and then assign and this one n++ viceversa.
+ 
+we have comparison operators here <,<=,== != also known as traditional operators.
+we have a logical operators &&(AND),||(OR),!(NOT).Wehave to use these operators for checking multiple conditions into a single condition.
+we can use these operators when we can check for multiple conditions at a time.
+We can go with if else conditions based on the situation which is a part of loops concept.
+we have ternary operators which is a short form of if else constions like instead of writing a code in multiple lines for checking conditions in a single line.
+switch case is also a part of conditional statements we can use this when we have multiple conditions to check for a single variable and also instead of writing multiple if-else conditions we can write a switch for the efficiency and clean code.
+If we don't use the break statement it will print all the cases after matching case.
+
+For iterating the same block of code for multiple times we can use loops
+we have For loop,while loop,do-while loop. mostly all works same but the syntax differs.
