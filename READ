@@ -30,3 +30,9 @@ If we don't use the break statement it will print all the cases after matching c
 
 For iterating the same block of code for multiple times we can use loops
 we have For loop,while loop,do-while loop. mostly all works same but the syntax differs.
+
+--Rollback and Rollforward activties in Git--
+So git log --oneline  and git reflog gives the commit history with hashid's.
+git revert hashid this will work as rollforward or rollback based on the situation.
+git reset --hard hashid this will work as rollback to the particular commit and all the changes after that will be lost.
+git reset --soft hashid this will work as rollback to the particular commit but the changes after
