@@ -36,3 +36,7 @@ So git log --oneline  and git reflog gives the commit history with hashid's.
 git revert hashid this will work as rollforward or rollback based on the situation.
 git reset --hard hashid this will work as rollback to the particular commit and all the changes after that will be lost.
 git reset --soft hashid this will work as rollback to the particular commit but the changes after
+
+Do while loop irrespective of condition it will execute at least once. it will execute once and then check for the condition.
+IF We observe in while and so while loop we are initialising at first instance and checking the condition and after executing we are incrementing the value so here we are taking three steps.
+we can cover all three steps in a single line in for loop.
