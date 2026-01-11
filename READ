@@ -40,3 +40,10 @@ git reset --soft hashid this will work as rollback to the particular commit but 
 Do while loop irrespective of condition it will execute at least once. it will execute once and then check for the condition.
 IF We observe in while and so while loop we are initialising at first instance and checking the condition and after executing we are incrementing the value so here we are taking three steps.
 we can cover all three steps in a single line in for loop.
+In terms of frequency we can use for loop and when we are connecting to databases pr external files or networking, connectivity we can go with while loop.
+Its time to learn oops concepts in java.(Object oriented Programming System)
+In programming everything works as  objects and classes and every object knows something and does something.
+Object has properties and behaviours.
+Actions can be done by methods.class is like a designer and at the jvm level it will convert into objects.
+If you want your method doesn't return anything we can define the method with void keyword and by defining as public we can access from anywhere.
+when we have multiple methods with a same name but different parameters is called method overloading.we can define the method with different dataypes but the parameters should be differnt to act as a method overloading.
