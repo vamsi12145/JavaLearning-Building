@@ -47,3 +47,12 @@ Object has properties and behaviours.
 Actions can be done by methods.class is like a designer and at the jvm level it will convert into objects.
 If you want your method doesn't return anything we can define the method with void keyword and by defining as public we can access from anywhere.
 when we have multiple methods with a same name but different parameters is called method overloading.we can define the method with different dataypes but the parameters should be differnt to act as a method overloading.
+when we want to take the user input we can use scanner class.also we have a buffere reader class to read the input this is a part of io package also it requires input stream readerand this is fast compared to the scanner class.
+we have a System.in.read() to read the input from the user but it takes a single character at a time and retuens as a ascii value.
+Either we use scanner or buffere reader we need to handle the exceptions.so we can use try catch block for handling exceptions.
+also as a best practice we should always close the resources like bf.close or sc.close().
+
+We have stack and heap memory in java for storing different variables like local variables,instance variables, objects etc.
+Stack memory stores the local variables and method calls and heap memory stores the objects and instance variables.
+When we create a object using new keyword it will be stored in heap memory and the reference variable will be stored in stack memory.
+To hold multiple values in a single variable we have arrays in java.
